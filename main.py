@@ -27,9 +27,9 @@ DEFAULT_SEARCH_MARKUP = [
 async def start_handler(_, message: Message):
     try:
         await message.reply_text(
-            text="Hello, I am Torrent Search Bot!\n"
-                 "I can search Torrent Magnetic Links from Inline.\n\n"
-                 "Made by @AbirHasan2005",
+            text="හායි 🥰❤️..මගෙන් ඔයාලට ඕනිම ටොරෙන්ට් එකක් ලේසියෙන්ම හොයාගන්න පුළුවන් 😍\n"
+                 "මට ඕනෙම ගෲප් එකක් ඇතුලෙ ඉඳන් උනත් මේක කරන්න පුළුවන් 😊\n\n"
+                 "Owner :- @Ravindu_Deshanz",
             disable_web_page_preview=True,
             parse_mode="Markdown",
             reply_markup=InlineKeyboardMarkup(DEFAULT_SEARCH_MARKUP)
